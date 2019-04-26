@@ -87,3 +87,13 @@ if (!function_exists("randomAlphaBet")) {
         return $str;
     }
 }
+
+
+if (!function_exists("lightUp")) {
+    function lightUp($count, $symbolLight = "🌕", $symbolDark = "🌑", $max = 5)
+    {
+        $str = str_repeat($symbolLight, $count);
+        $str .= str_repeat($symbolDark, $max - $count);
+        return $str;
+    }
+}

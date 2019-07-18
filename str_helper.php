@@ -1,4 +1,5 @@
 <?php
+
 if (!function_exists("getStrBefore")) {
 
     function getStrBefore($str, $before)
@@ -87,7 +88,6 @@ if (!function_exists("randomAlphaBet")) {
         return $str;
     }
 }
-
 
 if (!function_exists("lightUp")) {
     function lightUp($count, $symbolLight = "🌕", $symbolDark = "🌑", $max = 5)

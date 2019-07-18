@@ -1,8 +1,4 @@
 <?php
-/**
- * Date: 2019/4/24
- * Time: 下午 02:34
- */
 
 if (!function_exists('unique_multidim_array')) {
 

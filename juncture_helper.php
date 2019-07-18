@@ -1,8 +1,4 @@
 <?php
-/**
- * Date: 2019/4/24
- * Time: 上午 10:23
- */
 
 if (!function_exists('getChineseWeekday')) {
 

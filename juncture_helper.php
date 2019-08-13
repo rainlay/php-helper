@@ -1,5 +1,10 @@
 <?php
 
+/*
+ * 日期/時間 相關 helper
+ */
+
+
 if (!function_exists('getChineseWeekday')) {
 
     function getChineseWeekday($yourDate)

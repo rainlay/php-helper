@@ -1,5 +1,9 @@
 <?php
 
+/*
+ * 字串處理相關 helper
+ */
+
 if (!function_exists("getStrBefore")) {
 
     function getStrBefore($str, $before)
